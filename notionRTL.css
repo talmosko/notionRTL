@@ -1,0 +1,11 @@
+.notion-frame,.notion-scroller
+{
+direction : rtl;
+text-align : right;
+}
+
+div[contenteditable="true"]
+{
+text-align : right; !important
+direction : rtl; !important
+}

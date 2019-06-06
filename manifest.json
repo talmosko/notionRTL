@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "notionRTL",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [ "https://www.notion.so/*", "http://www.notion.so/*", "https://notion.so/*", "http://notion.so/*" ],
+      "js": ["jquery-3.4.1.min.js", "content.js"],
+"css": ["notionRTL.css"]
+    }
+  ]
+
+}
